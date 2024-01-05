@@ -1,8 +1,9 @@
-NAME =
+NAME = animal
 CC = c++
 CPPFLAGS = -Wall -Wextra -Werror -std=c++98
-SRC = main.cpp
-SRCH =
+SRC = main.cpp Dog.cpp Cat.cpp Animal.cpp Brain.cpp
+
+SRCH = Animal.hpp Cat.hpp Dog.hpp Brain.hpp
 
 OBJ = $(SRC:.cpp=.o)
 
