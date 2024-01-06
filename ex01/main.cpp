@@ -29,11 +29,9 @@ int  main(){
 		}
 		i++;
 	}
-	std::cout << std::endl;
-	std::cout << "=================================\n";
+	std::cout << "----------------------\n" << std::endl;
 	DeepCopie();
-	std::cout << "=================================\n";
-	std::cout << std::endl;
+	std::cout << "----------------------\n" << std::endl;
 
 	i = 0;
 	while(i < 6)
